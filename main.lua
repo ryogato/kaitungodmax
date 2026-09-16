@@ -3,10 +3,10 @@
 -- =================================================================
 
 -- 1. Kiểm tra bảng Config của người dùng (Nếu chưa có thì dùng mặc định)
-if not getgenv().ConfigVortexZ then
-    getgenv().ConfigVortexZ = {
+if not getgenv().ConfigDMS then
+    getgenv().ConfigDMS = {
         ChooseTeam = "Marines",
-        LockFPS = 30,
+        LockFPS = 15,
         AutoBuyHaki = true,
         AutoStats = true,
         AutoSeaTravel = true,
